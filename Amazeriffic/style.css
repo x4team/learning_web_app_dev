@@ -1,40 +1,74 @@
 body {	
-background: #f9e933;
-font-size: 100%;
+background: white;
+
 }
+
+a {
+	color: coral;
+	text-decoration: none;
+}
+
+a:visited{
+	color:tomato;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+p{
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
 header, main, footer {
 min-width: 855px;
+padding: 20px 20px 10px 10px;
+margin-top: 10px;
 }
+
 header .container, main .container, footer .container {
 max-width: 855px;
 margin: auto;
 }
+
 header {
 background: white;
 overflow: auto;
 }
-header h1 {
+
+h1 {
 float: left;
 width: 570px;
 font-family: 'Ubuntu', sans-serif;
-font-size: 100%;
+font-size: 2.5em;
+
 }
-header h2,h3,h4 {
+
+
+h2,h3,h4 {
 font-family: 'Ubuntu', sans-serif;
-font-size: 100%;
-	}
+padding-bottom: 10px;
+font-size: 1.5em;
+}
+
 header nav {
 float: right;
 width: 285px;
 font-family: 'Open Sans', sans-serif;
-font-size: 100%;
+
 }
 
 main {
 overflow: auto;
 background: white;
 font-family: 'Open Sans', sans-serif;
-font-size: 100%;
+min-height: 700px;
+
 }
 
 main .content {
@@ -48,8 +82,12 @@ main .lightbulb {
 
 footer {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 100%;
 	overflow: auto;
+	padding: 20px 20px;
+	min-height: 100px;
+	max-height: 100px;
+	background: #f9e933;
+
 }
 
 footer .contact {
