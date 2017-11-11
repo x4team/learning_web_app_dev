@@ -56,6 +56,12 @@ padding-bottom: 10px;
 font-size: 1.5em;
 }
 
+h5 {
+font-family: 'Ubuntu', sans-serif;
+padding-bottom: 10px;
+font-size: 1.2em;
+}
+
 header nav {
 float: right;
 width: 285px;
@@ -80,12 +86,20 @@ main .lightbulb {
 	width: 285px;
 }
 
+main .faq {
+	 padding-top: 20px;
+}
+
+main .faq-href {
+	padding: 0px;
+}
+
 footer {
 	font-family: 'Open Sans', sans-serif;
 	overflow: auto;
 	padding: 20px 20px;
 	min-height: 100px;
-	max-height: 100px;
+	max-height: 200px;
 	background: #f9e933;
 
 }
@@ -98,4 +112,8 @@ footer .contact {
 footer .sitemap {
 		float: right;
 	width: 285px;
+}
+
+footer ul {
+ padding-top: 0px;
 }
