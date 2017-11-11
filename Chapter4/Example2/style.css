@@ -2,3 +2,107 @@
 margin: 0;
 padding: 0;
 }
+
+body {	
+background: white;
+font-family: 'Open Sans', sans-serif;
+}
+
+p{
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+header, main, footer {
+min-width: 855px;
+padding: 5px 20px 10px 10px;
+margin-top: 10px;
+
+
+}
+
+header .container, main .container, footer .container {
+max-width: 855px;
+margin: auto;
+}
+
+   h1 {
+   	float: left;
+   	width: 855px;
+   	font-family: 'Ubuntu', sans-serif;
+    font-size: 200%; /* Размер шрифта */
+    border-bottom: 1px solid maroon; /* Параметры линии под текстом */
+    font-weight: normal; /* Убираем жирное начертание */
+    padding-bottom: 5px; /* Расстояние от текста до линии */
+   }
+   small {
+   	font-size: 60%;
+   	padding-left: 80px;
+   	font-weight: normal;
+   	font-style: italic;
+   }
+
+main {
+overflow: auto;
+background: white;
+font-family: 'Open Sans', sans-serif;
+min-height: 700px;
+
+}
+
+main .comments {
+	padding-top: 25px;
+	float: right;
+	width: 570px;
+	
+}
+main .comment-input {
+	padding-top: 15px;
+	float: left;
+	width: 270px;
+	
+}
+
+.comments p:nth-child(even) {
+background: lavender;
+border-radius: 5px;
+padding: 10px 10px 10px 10px;
+margin-bottom: 10px;
+
+}
+.comments p:nth-child(odd) {
+background: gainsboro;
+border-radius: 5px;
+padding: 15px 15px 20px 20px;
+margin-bottom: 10px;
+}
+
+input {
+	min-height: 30px;
+	min-width: 200px;
+}
+
+button {
+	width: 35px;
+	height: 35px;
+	border-radius: 5px;
+	background: gray;
+	font-size: 110%;
+	margin-left: 5px;
+	float: right;
+	position: absolute;
+
+
+}
+
+
+
+footer {
+	font-family: 'Open Sans', sans-serif;
+	overflow: auto;
+	width: 855px;
+	float: inherit;
+	border-top: 1px solid maroon;
+    margin: auto;
+
+}
