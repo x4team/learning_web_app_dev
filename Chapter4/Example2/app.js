@@ -1,5 +1,7 @@
-//var main = function () {
-//"use strict";  //Запрещает исполнение некоторых неудачных аспектов JavaScript
-//window.alert("hello, world!");
-//};
-//$(document).ready(main);
+var main = function () {
+"use strict";
+$(".comment-input button").on("click", function (event) {
+console.log("Hello, World!");
+});
+};
+$(document).ready(main);
