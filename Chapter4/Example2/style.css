@@ -80,6 +80,8 @@ margin-bottom: 10px;
 input {
 	min-height: 30px;
 	min-width: 200px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 120%;
 }
 
 button {
