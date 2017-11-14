@@ -20,3 +20,5 @@ addCommentFromInputBox();
 });
 };
 $(document).ready(main);
+
+//120 + тетрадь
