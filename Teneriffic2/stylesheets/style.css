@@ -1,0 +1,134 @@
+body {	
+background: white;
+
+}
+
+a {
+	color: coral;
+	text-decoration: none;
+}
+
+a:visited{
+	color:tomato;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+p{
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+header, main, footer {
+min-width: 855px;
+padding: 20px 20px 10px 10px;
+margin-top: 10px;
+}
+
+header .container, main .container, footer .container {
+max-width: 855px;
+margin: auto;
+}
+
+header {
+background: white;
+overflow: auto;
+}
+
+h1 {
+float: left;
+width: 570px;
+font-family: 'Ubuntu', sans-serif;
+font-size: 2.5em;
+
+}
+
+
+h2,h3,h4 {
+font-family: 'Ubuntu', sans-serif;
+padding-bottom: 10px;
+font-size: 1.5em;
+}
+
+h5 {
+font-family: 'Ubuntu', sans-serif;
+padding-bottom: 10px;
+font-size: 1.2em;
+}
+
+header nav {
+float: right;
+width: 285px;
+font-family: 'Open Sans', sans-serif;
+
+}
+
+.tabs a span {
+display: inline-block;
+border-radius: 5px 5px 0 0;
+width: 100px;
+margin-right: 10px;
+text-align: center;
+background: #ddd;
+padding: 5px;
+}
+
+.tabs a span.active {
+background: #eee;
+}
+
+main {
+overflow: auto;
+background: white;
+font-family: 'Open Sans', sans-serif;
+min-height: 700px;
+
+}
+
+main .content {
+	float: left;
+	width: 570px;
+	padding-top: 10px;
+}
+main .lightbulb {
+	float: right;
+	width: 285px;
+}
+
+main .faq {
+	 padding-top: 20px;
+}
+
+main .faq-href {
+	padding: 0px;
+}
+
+footer {
+	font-family: 'Open Sans', sans-serif;
+	overflow: auto;
+	padding: 20px 20px;
+	min-height: 100px;
+	max-height: 200px;
+	background: #f9e933;
+
+}
+
+footer .contact {
+		float: left;
+	width: 570px;
+}
+
+footer .sitemap {
+		float: right;
+	width: 285px;
+}
+
+footer ul {
+ padding-top: 0px;
+}
